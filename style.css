@@ -1,0 +1,17 @@
+.button {
+    border-color: maroon;
+    background-color: maroon;
+    color: white;
+}
+a {
+    color: maroon;
+}
+a:hover {
+    color: goldenrod
+}
+#content p{
+    background-color: lightgray;
+    border-color: gray;
+    padding: 5px;
+    margin: 5px;
+}

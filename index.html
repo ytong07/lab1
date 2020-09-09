@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        
+        <!-- CSS Reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+        <!-- Milligram CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+        <!-- Include your style.css here -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Wesite Title -->
         <title>The Boston College Factbook</title>
     </head>
     <body>
-        <h1>The Boston College Factbook</h1>
-        <a href = "https://www.bc.edu/content/bc-web/admission/apply.html">Apply to Boston College here.</a>
+        <div class="container">
+            <div class="row">
+                <div class="column column-40"><h1>The Boston College Factbook</h1></div>                       
+            </div>
+
+            <div class="row">
+                <div class="column column-50">
+                        <button type="button" id="generate" class="button">GET A RANDOM FACT ABOUT BOSTON COLLEGE</button>
+                </div>
+                <div class="column column-50 column offset-25">
+                    <p class="hyperlink">image courtesy of: <a href="https://www.bc.edu/content/bc-web/offices/office-of-university-communications/our-work/photography.html">Boston College's Office of University Communications</a></p>
+                </div>
+            </div>
+                                 
+            <div class="row">
+                <div class="column column-40">
+                    <div id="content">
+                        <script defer src="js/main.js"></script>
+                    </div>
+                </div>     
+                <div class="column column-50 column-offset-10"><image src="image.jpg"></image></div>
+            </div>
+        </div>
     </body>
+</html>
